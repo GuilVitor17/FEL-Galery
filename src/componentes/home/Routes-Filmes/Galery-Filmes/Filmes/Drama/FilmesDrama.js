@@ -1,0 +1,49 @@
+import axios from "axios";
+import React, { useEffect, useState } from "react"
+import { Link, useParams } from "react-router-dom";
+import Carousel, { slidesToShowPlugin } from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
+import './drama-modules.css'
+
+
+const FilmesDramaInfomacoes = ({titulo, img,Id ,descricaoMin, data}) => {
+
+
+     const saveId = () =>{
+
+      localStorage.setItem("id", Id)
+
+     }
+    
+
+  return (
+    <div calssName="Drama">
+
+           
+              <div className="card">
+                <img src={img} className="card-img-top" />
+                <div className="card-body">
+                <h5 className="card-title">{titulo}</h5>
+                <h6 className="card-text">{descricaoMin}</h6>
+                  <h5 className="card-genero-4"><b>Drama</b></h5>
+                  <h5 className="card-date">{data}</h5>
+                  <Link className="Btn-filmes" to={`/filmes/drama/${Id}`}><button type="button" onClick={saveId} className="btn btn-primary">
+                    Ver filmes
+                  </button></Link>
+                </div>
+
+              
+              </div>
+
+            
+               
+
+        
+
+
+
+    </div>
+  )
+}
+
+export default FilmesDramaInfomacoes

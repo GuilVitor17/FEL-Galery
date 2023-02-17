@@ -1,0 +1,122 @@
+.div-register{
+    width: 100%;
+    background-color: #00337C;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.div-register-center > .Voltar {
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left: 50px;
+    display: flex;
+    transform: translateX(0px);
+    position: absolute;
+
+}
+.div-register-center > .Voltar > svg{
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 0px;
+    display: flex;
+    position: relative;
+
+}
+
+.div-register-center{
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius: 10px;
+}
+
+.div-register-image{
+
+    width: 200px;
+    padding: 0px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 0px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.div-register-image > img{
+
+    width: 60px;
+    padding: 0px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top:10px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: none;
+
+}
+
+.formulario-register{
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.formulario-register > label{
+    width: 300px;
+    position: relative;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formulario-register > label > input{
+    width: 300px;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+    padding: 7px 0px;
+    border-radius: 5px;
+
+}
+
+
+.formulario-register > button{
+    width: 130px;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+    padding: 10px 0px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+.formulario-register > button > b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    width: 125px;
+    text-align: center;
+
+}

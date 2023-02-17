@@ -1,0 +1,29 @@
+.home-Privada{
+width: 1200px;
+background-color: #fff;
+min-height: 700px;
+margin: auto;
+
+
+}
+
+.div-home-header{
+    width: 1200px;
+    height: 500px;
+    display: grid;
+    position: relative;
+    top: 80px;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #00337C;
+    color: #000;
+}
+
+.carousel-inner > .carousel-item > img{
+    width: 1280px;
+    height: 500px;
+    display: grid;
+    position: relative;
+
+}

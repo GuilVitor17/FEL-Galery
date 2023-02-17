@@ -1,0 +1,90 @@
+.private-rede-social{
+    width: 600px;
+    height: 300px;
+    display: flex;
+}
+
+.div-menu{
+width: 200px;
+height: 300px;
+display: grid;
+position: relative;
+}
+
+.div-menu > ul{
+  width: 200px;
+  height: 300px;
+  display: grid;
+  position: relative;
+  margin: 0px;
+}
+.div-menu > ul > .Link > li{
+    width: 200px;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-align: left;
+    margin: 1px;
+    display: grid;
+    position: relative;
+    color: #fff;
+  }
+  
+
+
+.Logo{
+    width: 400px;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+
+
+}
+
+.Logo > div{
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    box-shadow: none;
+}
+
+.Logo > div > img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    box-shadow: none;
+
+}
+
+.Logo > .Redes{
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+.Logo > .Redes > div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+    display: flex ;
+}
+
+.Logo > .Redes > div > svg{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}

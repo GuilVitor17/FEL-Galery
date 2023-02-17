@@ -1,0 +1,148 @@
+.Galery{
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+}
+
+.Galery > .carrossel-livro{
+    width: 1100px;
+    margin: auto;
+    min-height: 700px;
+    position: relative;
+
+}
+
+.carrossel-livro-destaque{
+    width: 1200px;
+    margin: auto;
+    min-height: 700px;
+    top: 70px;
+    position: relative;
+
+}
+.carrossel-livro-destaque .Voltar> svg{
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    position: relative;
+}
+
+.Galery > .caixaLivros{
+    width: 1200px;
+    margin: auto;
+  
+}
+
+.Galery > .caixaLivros > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+}
+
+
+.Galery > .caixaLivros-Historia{
+    width: 1200px;
+    margin: auto;
+    top: 100px;
+    min-height: 2600px;
+    position: relative;
+}
+
+.Galery > .caixaLivros-Historia > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+    top: 50px;
+
+}
+
+.Galery > .caixaLivros-aventura{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    min-height: 2600px;
+
+}
+
+.Galery > .caixaLivros-aventura > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+
+}
+
+.Galery > .caixaLivros-Infantil{
+    width: 1200px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    min-height: 2600px;
+
+}
+
+.Galery > .caixaLivros-Infantil > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+    top: 50px;
+
+}
+
+.Galery > .caixaLivros-Literatura{
+    width: 1200px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    min-height: 2600px;
+
+}
+
+.Galery > .caixaLivros-Literatura > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+    top: 50px;
+
+}
+
+.Galery > .caixaLivros-Religiao{
+    width: 1200px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    min-height: 2600px;
+
+}
+
+.Galery > .caixaLivros-Religiao > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+    top: 50px;
+
+}
+
+.Galery > .caixaLivros-Romance{
+    width: 1200px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    min-height: 2600px;
+
+}
+
+.Galery > .caixaLivros-Romance > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+    top: 50px;
+
+}

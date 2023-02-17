@@ -1,0 +1,66 @@
+h1{
+    color: red;
+}
+
+.div-inicio{
+    width: 100%;
+    background-color: #00337C;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.div-center{
+    width: 400px;
+    padding: 0px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.div-image{
+    width: 300px;
+    padding: 0px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+.div-image > img{
+    width: 200px;
+    padding: 0px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 0px;
+    border-radius: 10px;
+
+}
+
+.div-button{
+    width: 200px;
+    padding: 0px;
+    height: 60px;
+    position: relative;
+    margin: auto; 
+}
+
+.div-button > button{
+    width: 200px;
+    padding: 0px;
+    border: solid 1px black;
+    height: 60px;
+    position: relative;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+
+    
+    
+}

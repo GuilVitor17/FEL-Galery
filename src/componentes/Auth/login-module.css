@@ -1,0 +1,151 @@
+.div-login{
+    width: 100%;
+    background-color: #00337C;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.div-login-center > .Voltar {
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left: 50px;
+    display: flex;
+    transform: translateX(0px);
+    position: absolute;
+
+}
+.div-login-center > .Voltar > svg{
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 0px;
+    display: flex;
+    position: relative;
+
+}
+
+.div-login-center{
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius: 10px;
+}
+
+.div-login-image{
+
+    width: 200px;
+    padding: 0px;
+    height: 80px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 0px;
+}
+
+.div-login-image > img{
+
+    width: 60px;
+    padding: 0px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top:10px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: none;
+
+}
+
+.formulario-Login{
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.formulario-Login > label{
+    width: 300px;
+    position: relative;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formulario-Login > label > input{
+    width: 300px;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+    padding: 7px 0px;
+    border-radius: 5px;
+
+}
+
+
+.formulario-Login > button{
+    width: 130px;
+    display: flex;
+    margin: 5px auto;
+    flex-direction: column;
+    padding: 10px 0px;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+.formulario-Login > button > b{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    width: 125px;
+    text-align: center;
+
+}
+
+.div-login-link{
+    width: 300px;
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+    flex-direction:row;
+    top: -15px;
+}
+
+.div-login-link > .Link1{
+    width: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    color: black;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.div-login-link > .Link2{
+    width: 150px;
+    position: relative;
+    flex-direction: column;
+    flex-direction: row;
+    color: black;
+    text-align:right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

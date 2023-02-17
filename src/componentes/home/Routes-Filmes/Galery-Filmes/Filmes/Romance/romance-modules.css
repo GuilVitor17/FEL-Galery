@@ -1,0 +1,191 @@
+.carrossel > div {
+
+    width: 400px;
+    height: 300px;
+    position: relative;
+    margin: 0px 10px;
+    
+}
+
+ div > img {
+
+    width: 500px;
+    height: 300px;
+    margin: 0px;
+    top: 0px;
+
+}
+
+
+
+.div-Id-filmes{
+    width: 100%;
+    height: 700px;
+    background-color: #fff;
+}
+
+.div-inf-filmes{
+    width: 1200px;
+    height: 700px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.center-infor-filmes{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.div-caixa-img{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+.div-caixa-img > img{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.div-img-id > img{
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.card-genero{
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    right: 0;
+    bottom: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: tomato;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-date{
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    right: 0;
+    top:5px;
+    font-size: 15px;
+    color: tomato;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.card-body{
+    width: 300px;
+    margin: auto;
+    position: relative;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.card-body >.Btn-filmes > button{
+    padding: 10px;
+    width: 150px;
+    top: 15px;
+    position: relative;
+    right: 15px;
+    border: solid 1px #fff;
+
+}
+
+.card-title{
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    left: -15px;
+    top: 15px;
+}
+
+.card-text{
+    width: 300px;
+    height: 70px;
+    font-size: 15px;
+    left: -15px;
+    position: relative;
+    top: 15px;
+    color: #fff;
+    text-align: left;
+
+
+}
+
+
+.card{
+    width: 320px;
+    height: 450px;
+    font-size: 15px;
+    background-color: #00337C;
+    color: #fff;
+    margin: 25px 0px;
+
+}
+.card > img{
+    width: 320px;
+    height: 250px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+
+}
+.div-inf-id {
+    width: 400px;
+    height: 290px;
+    background-color: rgb(61, 42, 165);
+    margin: auto;
+}
+.div-inf-id > p {
+      margin: auto;
+      margin: 5px 0px;
+}
+
+
+.description-id{
+    width: 800px;
+    background-color: #fff;
+    display: flex;
+    top: 10px;
+    position: relative;
+
+}
+
+.description-id > .div-descricao-id{
+    width: 800px;
+    position: relative;
+}
+
+.description-id > a > .button-filmes-id{
+    width: 300px;
+    position: relative;
+}
+
+.description-id > a > .button-filmes-id > button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+

@@ -1,0 +1,43 @@
+.Galery{
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+}
+
+.Galery > .carrossel-Filme{
+    width: 100%;
+    margin: auto;
+    min-height: 700px;
+    position: relative;
+    background-color: #fff;
+}
+
+.carrossel-Filme-destaque-edit{
+    width: 1200px;
+    margin: auto;
+    min-height: 700px;
+    top: 70px;
+    position: relative;
+
+}
+
+.carrossel-Filme-destaque-edit > .Voltar> svg{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.Galery > .caixaFilmes{
+    width: 1200px;
+    margin: auto;
+}
+
+.Galery > .caixaFilmes > div{
+    width: 1200px;
+    height: 500px;
+    margin: 20px 0px;
+    margin: auto;
+}
+
